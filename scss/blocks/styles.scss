@@ -1,0 +1,17 @@
+// bases
+@import "../base/vars";
+
+@import "../base/reset";
+
+@import "../base/base";
+
+// blocks
+@import "header";
+@import "main";
+@import "footer";
+
+
+
+@import "../base/media_header";
+@import "../base/media_main";
+@import "../base/media_footer";

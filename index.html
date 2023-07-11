@@ -5,6 +5,10 @@
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
     <link rel="stylesheet" href="css/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/styles.min.css">
 </head>
 <body>
 
@@ -25,8 +29,568 @@
     <!-- Конец -->
 
     <div class="main">
-        В данном блоке размещается верстка
+        <header class="header" id="header">
+            <div class="header__container">
+
+                    <a href="#" class="header__logo-img"><img src="img/logo.svg" alt="logo" title="Logo"></a>
+                    <div class="header__wrapper">
+                        <a href="tel:+221234567890" class="header__phone">
+                            <img src="img/icons/phone_header.svg" alt="">
+                            <span>Call Us - (+22) 123 456 7890</span>
+                        </a>
+                        <div class="header__body">
+                        <nav class="header__nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Home</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">About</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Pages</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Contact us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a href="#" class="social__link"><span class="icon-facebook_header"></span></a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link">
+                                    <span class="icon-twitter_header"></span>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link">
+                                    <span class="icon-linkedin_header"></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="#" class="header__reservation button"> <img src="img/icons/calendar_header.svg" alt=""> Reservation</a>
+                                        </div>
+                    </div>
+                <button class="burger__button" id="burger__button">
+                    <span class="burger__item"></span>
+                </button>
+            </div>
+        </header>
+        <main class="main">
+            <section class="reservation__page">
+                <div class="reservation__container">
+                    <div class="reservation__content">
+                        <h4 class="reservation__subtitle subtitle">
+                            <span class="icon-screamer"></span>Welcome to Beautyness!!!
+                        </h4>
+                        <h1 class="reservation__title title">
+                            Bring The well being & beauty naturally!!!
+                        </h1>
+                        <p class="reservation__text">
+                            Your body does a lot for you, and your caring therapist can help you return the favor in a way that benefits both your physical and mental wellness.
+                        </p>
+                        <a href="#" class="reservation__button button">Make a reservation</a>
+                    </div>
+                    <div class="reservation__frame">
+                        <div class="reservation__banner">
+                            <img src="img/images/banner.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="spa__page">
+                <div class="spa__container">
+                    <div class="spa__card">
+                        <div class="spa__image">
+                            <img src="img/images/spa_card_6.png" alt="card_1">
+                        </div>
+                        <h3 class="spa__title">
+                            Spa & Massage
+                        </h3>
+                        <p class="spa__text">
+                            Your wellness goals and the areas of preference, then unwind with a customized massage experience.
+                        </p>
+                        <a href="#" class="spa__button button">Read more</a>
+                    </div>
+                    <div class="spa__card">
+                        <div class="spa__image">
+                            <img src="img/images/spa_card_5.png" alt="card_1">
+                        </div>
+                        <h3 class="spa__title">
+                            Hair & Beauty
+                        </h3>
+                        <p class="spa__text">
+                            Combining skin-type-specific cleansing & toning, exfoliation, deep-pore cleansing extractions customized treatment.
+                        </p>
+                        <a href="#" class="spa__button button">Read more</a>
+                    </div>
+                    <div class="spa__card">
+                        <div class="spa__image">
+                            <img src="img/images/spa_card_4.png" alt="card_1">
+                        </div>
+                        <h3 class="spa__title">
+                            Body Treatments
+                        </h3>
+                        <p class="spa__text">
+                            Offers therapeutic benefits such as relief of muscle tension and increased circulation to the areas worked.
+                        </p>
+                        <a href="#" class="spa__button button">Read more</a>
+                    </div>
+                </div>
+            </section>
+            <section class="cares__page">
+                <div class="cares__container">
+                    <div class="cares__content">
+                        <h4 class="cares__subtitle subtitle">
+                            Take Your Care
+                        </h4>
+                        <h2 class="cares__title title">
+                            Elevate Your Lifestyle by Bring Balance and Well Being Into Your Life
+                        </h2>
+                        <p class="cares__text">Designed to allow you to unwind and feel confident that you’re in good, caring hands. Our first priority is cleanliness. We have a full-time staff whose job is to ensure that the environment at Beautyness remains.</p>
+                        <div class="cares__cards">
+                            <div class="cares__item">
+                                <img src="img/icons/care_face.svg" alt="">
+                                <h3 class="cares__name">
+                                    Beauty
+                                </h3>
+                                <h3 class="cares__name">
+                                    Experts
+                                </h3>
+                            </div>
+                            <div class="cares__item">
+                                <img src="img/icons/care_plant.svg" alt="">
+                                <h3 class="cares__name">
+                                    Quality
+                                </h3>
+                                <h3 class="cares__name">
+                                    Services
+                                </h3>
+                            </div>
+                            <div class="cares__item">
+                                <img src="img/icons/care_cream.svg" alt="">
+                                <h3 class="cares__name">
+                                    100%
+                                </h3>
+                                <h3 class="cares__name">
+                                    Nature
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cares__frame">
+                        <div class="cares__banner"><img src="img/images/care_banner.png" alt=""></div>
+                    </div>
+                </div>
+            </section>
+            <section class="services__page">
+                <div class="services__container">
+                    <h4 class="services__subtitle subtitle">Our Services</h4>
+                    <h2 class="services__title title">Creative excellence and the unparalleled hospitality</h2>
+                    <div class="services__cards">
+                        <div class="services__card">
+                            <div class="services__banner">
+                                <img src="img/images/service_card_1.png" alt="">
+                            </div>
+                            <div class="services__content">
+                                <div class="services__price">
+                                    <div class="services__name">
+                                        <h3 class="services__service">
+                                            Deep Tissue
+                                        </h3>
+                                        <div class="services__cost"><span class="from">from</span><span class="dollar">$48.00</span></div>
+                                    </div>
+                                    <p class="services__description">A therapeutic massage that used for relieving muscles.</p>
+                                </div>
+                                <div class="services__price">
+                                    <div class="services__name">
+                                        <h3 class="services__service">
+                                            Body Scrub
+                                        </h3>
+                                        <div class="services__cost"><span class="from">from</span><span class="dollar">$18.00</span></div>
+                                    </div>
+                                    <p class="services__description">Perfect way to relieve all that unwanted stress in body.</p>
+                                </div>
+                                <div class="services__price">
+                                    <div class="services__name">
+                                        <h3 class="services__service">
+                                            Foot Massage
+                                        </h3>
+                                        <div class="services__cost"><span class="from">from</span><span class="dollar">$25.00</span></div>
+                                    </div>
+                                    <p class="services__description">Get a relaxing massage focused on your feet and lower legs.</p>
+                                </div>
+                                <div class="services__price">
+                                    <div class="services__name">
+                                        <h3 class="services__service">
+                                            Scalp Treatments
+                                        </h3>
+                                        <div class="services__cost"><span class="from">from</span><span class="dollar">$15.00</span></div>
+                                    </div>
+                                    <p class="services__description">Superior gray creates a rich, natural look with less fading.</p>
+                                </div>
+                                <a href="#" class="services__button button">GET AN APPOINTMENT</a>
+                            </div>
+                        </div>
+                        <!-- ----------------------- -->
+                        <div class="services__card reverse">
+                            <div class="services__banner">
+                                <img src="img/images/service_card_2.png" alt="">
+                            </div>
+                            <div class="services__content">
+                                <div class="services__price">
+                                    <div class="services__name">
+                                        <h3 class="services__service">
+                                            Fertility massage
+                                        </h3>
+                                        <div class="services__cost"><span class="from">from</span><span class="dollar">$18.00</span></div>
+                                    </div>
+                                    <p class="services__description">Help support reproductive health, the menstrual cycle.</p>
+                                </div>
+                                <div class="services__price">
+                                    <div class="services__name">
+                                        <h3 class="services__service">
+                                            Blemish Buster
+                                        </h3>
+                                        <div class="services__cost"><span class="from">from</span><span class="dollar">$40.00</span></div>
+                                    </div>
+                                    <p class="services__description">Deep cleansing facial rebalances to promote healthy skin.</p>
+                                </div>
+                                <div class="services__price">
+                                    <div class="services__name">
+                                        <h3 class="services__service">
+                                            Oxygen Facial
+                                        </h3>
+                                        <div class="services__cost"><span class="from">from</span><span class="dollar">$32.00</span></div>
+                                    </div>
+                                    <p class="services__description">Hydrates, tones, lifts, and adds radiance to the skin.</p>
+                                </div>
+                                <div class="services__price">
+                                    <div class="services__name">
+                                        <h3 class="services__service">
+                                            Lash Lift
+                                        </h3>
+                                        <div class="services__cost"><span class="from">from</span><span class="dollar">$25.00</span></div>
+                                    </div>
+                                    <p class="services__description">Treatment for natural lashes that can add curl and definition.</p>
+                                </div>
+                                <a href="#" class="services__button button">GET AN APPOINTMENT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="testimonials__page">
+                <div class="testimonials__container">
+                    <h4 class="testimonials__subtitle subtitle">Testimonials</h4>
+                    <h2 class="testimonials__title title">
+                        What our Costumers says...
+                    </h2>
+                    <div class="testimonials__content">
+                        <div class="testimonials__card">
+                            <p class="testimonials__text">
+                                “ Made an appointment with Beautyness and it was the best experience in a salon I have ever had. They went above and beyond to make sure I got what I wanted, & patiently explained her process “
+                            </p>
+                            <div class="testimonials__comment">
+                                <div class="testimonials__image"><img src="img/images/costumer_card_1.png" alt=""></div>
+                                <div class="testimonials__portfolio">
+                                    <div class="testimonials__stars">
+                                        <span class="icon-stars"></span>
+                                    </div>
+                                    <h3 class="testimonials__name">James Williams</h3>
+                                    <h5 class="testimonials__country">United States</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonials__card">
+                            <p class="testimonials__text">
+                                “ I've been going to Beautyness they are always goes above and beyond my expectations and leaves my hair looking and feeling fantastic and looking exactly as I hoped, if not better “
+                            </p>
+                            <div class="testimonials__comment">
+                                <div class="testimonials__image"><img src="img/images/costumer_card_2.png" alt=""></div>
+                                <div class="testimonials__portfolio">
+                                    <div class="testimonials__stars">
+                                        <span class="icon-stars"></span>
+                                    </div>
+                                    <h3 class="testimonials__name">Carolyn James</h3>
+                                    <h5 class="testimonials__country">United Kingdom</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="benefits__page">
+                <div class="benefits__container">
+                    <h4 class="benefits__subtitle">
+                        Our Awesome Benefits
+                    </h4>
+                    <h2 class="benefits__title title">
+                        What you’ll get from Us
+                    </h2>
+                    <div class="benefits__cards">
+                        <div class="benefits__card">
+                            <div class="benefits__icon">
+                                <img src="img/icons/check.svg" alt="">
+                            </div>
+                            <h3 class="benefits__name">
+                                Built with you in mind
+                            </h3>
+                            <p class="benefits__text">We know how important it is to maintain strong relationships with clients.</p>
+                        </div>
+                        <div class="benefits__card">
+                            <div class="benefits__icon">
+                                <img src="img/icons/check.svg" alt="">
+                            </div>
+                            <h3 class="benefits__name">
+                                The Perfect Salon Services
+                            </h3>
+                            <p class="benefits__text">Talented, educated, and fashion-forward artists meet the unique needs of client.</p>
+                        </div>
+                        <div class="benefits__card">
+                            <div class="benefits__icon">
+                                <img src="img/icons/check.svg" alt="">
+                            </div>
+                            <h3 class="benefits__name">
+                                Skin Deep Experiences
+                            </h3>
+                            <p class="benefits__text">Appropriate for all skin types, sun damage, fine lines and wrinkles, acne, and oily.</p>
+                        </div>
+                        <div class="benefits__card">
+                            <div class="benefits__icon">
+                                <img src="img/icons/check.svg" alt="">
+                            </div>
+                            <h3 class="benefits__name">
+                                Essential Spa Pedicure
+                            </h3>
+                            <p class="benefits__text">Indulge in a soothing foot bath along with a callous smoothing exfoliating scrub.</p>
+                        </div>
+                        <div class="benefits__card">
+                            <div class="benefits__icon">
+                                <img src="img/icons/check.svg" alt="">
+                            </div>
+                            <h3 class="benefits__name">
+                                Skilled Spa Services
+                            </h3>
+                            <p class="benefits__text">Our skilled estheticians offer an array of refreshing treatments.</p>
+                        </div>
+                        <div class="benefits__card">
+                            <div class="benefits__icon">
+                                <img src="img/icons/check.svg" alt="">
+                            </div>
+                            <h3 class="benefits__name">
+                                Perfect & Natural Products
+                            </h3>
+                            <p class="benefits__text">We offer the very best in luxury beauty products for both hair and skin.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="discount__page">
+                <div class="discount__container">
+                    <div class="discount__content">
+                        <h4 class="discount__subtitle subtitle">
+                            Flat Discount
+                        </h4>
+                        <h2 class="discount__title title">
+                            Claim upto 50% offer on the most popular services...
+                        </h2>
+                        <p class="discount__text">Our Retreat is not meant to be an occasional treat, but rather a part of your routine that restores balance to your daily life.</p>
+                        <div class="discount__card">
+                            <div class="discount__contact">
+                                <div class="discount__contact-text">
+                                    <div class="discount__ellipsis">
+                                        <span class="icon-ellipsis"></span>
+                                    </div>
+                                    <div class="discount__contact-text-in">
+                                        <p>Mail Us :</p>
+                                        <a href="mailto:info@beautyness.com">info@beautyness.com</a>
+                                    </div>
+                                </div>
+                                <div class="discount__contact-text">
+                                    <div class="discount__ellipsis">
+                                        <span class="icon-ellipsis"></span>
+                                    </div>
+                                    <div class="discount__contact-text-in">
+                                        <p>Call us :</p>
+                                        <a href="tel:+123589012">(+1) 235 890 12</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="discount__contact-sale">
+                                <h5 class="discount__contact-sale-title">- Get Flat -</h5>
+                                <h5 class="discount__contact-sale-procent">50%</h5>
+                                <h5 class="discount__contact-sale-name">Discount</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="discount__form">
+                        <form action="" method="get" name="discount">
+                            <label for="name" class="input__name">
+                                <input autocomplete="on" type="text" id="name">
+                            </label>
+                            <label for="email" class="input__email">
+                                <input type="email" autocomplete="on" id="email">
+                            </label>
+                            <label for="tel" class="input__tel">
+                                <input type="tel" autocomplete="on" id="tel">
+                            </label>
+                            <label for="date" class="input__date">
+                                <input type="date" value="" class="input-txt" id="date" aria-required="true" aria-invalid="false" 
+                                placeholder="" onchange="this.className=(this.value!=''?'has-value':'')">
+                            </label>
+                            <label for="note" class="input__note">
+                                <textarea name="note" id="note" cols="30" rows="10" autocomplete="off"></textarea>
+                            </label>
+                            <button class="discount__button button" type="submit">get discount</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="blog__page">
+                <div class="blog__container">
+                    <h4 class="blog__subtitle subtitle">
+                        Our Blog
+                    </h4>
+                    <h2 class="blog__title title">Latest Updates</h2>
+                    <div class="blog__cards">
+                        <div class="blog__card">
+                            <div class="blog__img">
+                                <img src="img/images/spa_card_1.png" alt="">
+                            </div>
+                            <div class="blog__content">
+                                <div class="blog__memos">
+                                    <h5 class="blog__memo-date">September 30, 2021</h5>
+                                    <h5 class="blog__memo">Peter Bergson</h5>
+                                </div>
+                                <h3 class="blog__card-title">How to make the make-up stay last</h3>
+                                <p class="blog__card-text">Therapeutic aromatherapy can help bring balance both mentally, physically, and different blends.</p>
+                            </div>
+                        </div>
+                        <div class="blog__card">
+                            <div class="blog__img">
+                                <img src="img/images/spa_card_2.png" alt="">
+                            </div>
+                            <div class="blog__content">
+                                <div class="blog__memos">
+                                    <h5 class="blog__memo-date">September 30, 2021</h5>
+                                    <h5 class="blog__memo">John Walker</h5>
+                                </div>
+                                <h3 class="blog__card-title">Tips to improve your body via cleansing</h3>
+                                <p class="blog__card-text">Whether you’re looking to stress, boost energy, improve sleep, clear sinuses, or relieve a headache.</p>
+                            </div>
+                        </div>
+                        <div class="blog__card">
+                            <div class="blog__img">
+                                <img src="img/images/spa_card_3.png" alt="">
+                            </div>
+                            <div class="blog__content">
+                                <div class="blog__memos">
+                                    <h5 class="blog__memo-date">September 30, 2021</h5>
+                                    <h5 class="blog__memo">Christina John</h5>
+                                </div>
+                                <h3 class="blog__card-title">Experience the beauty at our beauty spa</h3>
+                                <p class="blog__card-text">We’ve created a range of proprietary aromatherapy blends to enhance your massage or skin therapy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="blog__button button">view more stories</a>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__head">
+                    <a href="#" class="footer__logo"><img src="img/footer_logo.svg" alt=""></a>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-icn"><span class="icon-footer_facebook"></span></a>
+                        <a href="#" class="footer__social-icn"><span class="icon-footer_twitter"></span></a>
+                        <a href="#" class="footer__social-icn"><span class="icon-footer_linkedin"></span></a>
+                        <a href="#" class="footer__social-icn"><span class="icon-footer_instagram"></span></a>
+                    </div>
+                </div>
+                <div class="footer__body">
+                    <nav class="footer__explore">
+                        <h3 class="footer__explore-title">Explore</h3>
+                        <ul class="footer__explore">
+                            <li class="footer__explore-item">
+                                <a href="#" class="footer__explore-link">Home</a>
+                            </li>
+                            <li class="footer__explore-item">
+                                <a href="#" class="footer__explore-link">About Us</a>
+                            </li>
+                            <li class="footer__explore-item">
+                                <a href="#" class="footer__explore-link">Services</a>
+                            </li>
+                            <li class="footer__explore-item">
+                                <a href="#" class="footer__explore-link">Articles</a>
+                            </li>
+                            <li class="footer__explore-item">
+                                <a href="#" class="footer__explore-link">Contact us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="footer__utility">
+                        <h3 class="footer__utility-title">
+                            Utility Pages
+                        </h3>
+                        <ul class="footer__utility-list">
+                            <li class="footer__utility-item">
+                                <a href="#" class="footer__utility-link">Style Guide</a>
+                            </li>
+                            <li class="footer__utility-item">
+                                <a href="#" class="footer__utility-link">404 Not Found</a>
+                            </li>
+                            <li class="footer__utility-item">
+                                <a href="#" class="footer__utility-link">Password Protected</a>
+                            </li>
+                            <li class="footer__utility-item">
+                                <a href="#" class="footer__utility-link">Licenses</a>
+                            </li>
+                            <li class="footer__utility-item">
+                                <a href="#" class="footer__utility-link">Changelog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="footer__contact">
+                        <h3 class="footer__contact-title">
+                            Keep in Touch
+                        </h3>
+                        <div class="footer__contact-list-item">
+                            <span>Address :</span>
+                            <a href="#">24A Kingston St, Los Vegas<span> NC 28202, USA.</span></a>
+                            <span>Mail :</span>
+                            <a href="mailto:support@doctors.com">support@doctors.com</a>
+                            <span>Phone :</span>
+                            <a href="tel:+221234567900">(+22) 123 - 4567 - 900</a>
+                        </div>
+                    </nav>
+                    <div class="footer__schedule">
+                        <h3 class="footer__schedule-title">Working Hours</h3>
+                        <ul class="footer__schedule-list">
+                            <li class="footer__schedule-item">
+                                <span>Mon to Fri: 7am - 6pm</span>
+                            </li>
+                            <li class="footer__schedule-item">
+                                <span>Sat: 9am - 7pm</span>
+                            </li>
+                            <li class="footer__schedule-item">
+                                <span>Sun: 9am - 6pm</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__foot">
+                    <span class="footer__foot-copyright">
+                        &#xA9; Drafted by VictorFlow - Powered by Webflow
+                    </span>
+                </div>
+        </footer>
     </div>
+    <script src="js/scripts.js"></script>
 
 </body>
 </html>

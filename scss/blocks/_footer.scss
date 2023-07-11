@@ -1,0 +1,111 @@
+.footer {
+    background-color: #1E2C30;
+    
+
+    &__container {
+        
+    }
+
+    &__head {
+        padding: 70px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 40px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        
+    }
+
+    &__logo {
+        transition: all 0.6s ease;
+        &:hover{
+            opacity: 0.6;
+        }
+    }
+
+    &__social {
+        display: flex;
+        gap: 10px;
+    }
+
+    &__social-icn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #5C8692;
+        width: 55px;
+        height: 55px;
+        transition: all 0.6s ease;
+        &:hover{
+            background-color: #5C8692;
+            color: rgb(0, 8, 255);
+        }
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 0;
+        
+    }
+
+    &__explore {
+    }
+
+    &__contact-list-item{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+        span{
+            grid-column: 1/1;
+        }
+        a{
+            grid-column: 2/4;
+            span{
+                display: block;
+            }
+        }
+    }
+
+[class*="-title"]{
+    color: #fff;
+    font-family: $side-font;
+    font-size: 22px;
+    line-height: 1.4;
+    margin-bottom: 24px;
+    background-color: inherit;
+    border: none;
+    padding: 0;
+}
+
+[class*="-item"]{
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.7;
+    &:not(:last-child){
+        margin-bottom: 9px;
+    }
+    a{
+        color: #fff;
+        &:hover{
+            color: rgb(157, 157, 202);
+            text-decoration: underline;
+        }
+    }
+}
+
+
+    &__foot {
+        background-color: #111E22;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    &__foot-copyright {
+        color: #fff;
+        font-size: 15px;
+        letter-spacing: 0.15px;
+    }
+}

@@ -1,0 +1,167 @@
+@media screen and (max-width:981.8px){
+    // reservation 
+    .reservation{
+        &__container{
+            flex-wrap: wrap;
+            gap: 35px;
+        }
+        &__frame{
+            overflow: hidden;
+            flex: 1 1 auto;height: 100%;
+        }
+        &__banner{
+            
+            position: static;
+            transform: translate(0);
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }    
+    // cares 
+    .cares{
+        &__container{
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        &__frame{
+            flex: 1 1 auto;
+            background: url(../../img/images/care_background.png) center/cover no-repeat;
+            display: flex;
+            justify-content: center;
+        }
+        &__banner{
+            height: 100%;
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        
+    }
+// services
+    .services{
+        &__cards{
+            background: none;
+        }
+        &__card{
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            gap: 0px;
+            
+        }
+        &__content{
+            padding: 0 10px
+        }
+        &__card.reverse{
+            margin-bottom: 0px;
+            .services__content{
+                padding: 0 10px;
+            }
+        }
+        &__title{
+            margin-bottom: 40px;
+        }
+        &__banner{
+            background: url(../../img/images/service_background.png) center/cover no-repeat;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            img{
+                object-fit: cover;
+                width: 60%;
+                
+            }
+        }
+    }
+    .discount{
+        &__container{
+            gap: 15px;
+        }
+        &__form{
+            padding: 50px 35px;
+        }
+    }
+}
+@media screen and (max-width:800px){
+    // reservation 
+    .reservation__button{
+        margin: 0 auto;
+        width: 100%;
+    }
+    // spa
+    .spa{
+        &__container{
+            flex-wrap: wrap;
+        }
+        &__card{
+            flex: 1 1 auto;
+        }
+    }   
+    // padding 
+    .reservation__page{
+        padding: 80px 0 50px;
+    }
+    .services__page,.testimonials__page,.benefits__page,.discount__page,.blog__page,.cares__page,.spa__page{
+        padding: 50px 0;
+    }
+    // services 
+    .services{
+        &__content{
+            flex: 1 1 auto;
+        }
+        &__service{
+            font-size: 17px;
+        }
+        &__description{
+            font-size: 15px;
+            white-space: pre-wrap;
+        }
+    }
+    .from{
+        font-size: 15px;
+    }
+    .dollar{
+        font-size: 16px;
+    }
+    .testimonials{
+        &__content{
+            flex-wrap: wrap;
+        }
+    }
+    // BENEFITS__PAGE
+    .benefits{
+        &__cards{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    // DISCOUNT__PAGE
+    .discount{
+        &__container{
+            flex-wrap: wrap;
+        }
+        &__form{
+            flex: 1 1 auto;
+        }
+        &__contact{
+            flex: 1 1 auto;
+        }
+        &__contact-sale{
+            flex: 1 1 auto;
+        }
+    }
+
+// BLOG_PAGE
+.blog{
+    &__cards{
+        flex-wrap: wrap;
+    }
+    &__card{
+        flex: 1 1 auto;
+    }
+}
+}
+
